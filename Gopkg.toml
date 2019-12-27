@@ -34,6 +34,6 @@
   version = "1.0.0"
 
 [metadata.heroku]
-  root-package = "github.com/prhineh1/panurge"
+  root-package = "github.com/cts3njitedu/healthyheart"
   go-version = "go1.13.5"
   ensure="true"
