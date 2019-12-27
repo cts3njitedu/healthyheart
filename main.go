@@ -29,5 +29,6 @@ func main() {
 	}
 	return ":" + port
 
+	fmt.Println("The port is: ",port)
 	http.ListenAndServe(port, nil)
 }
