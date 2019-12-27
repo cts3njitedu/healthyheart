@@ -27,7 +27,7 @@ func main() {
 		port = "3000"
 		fmt.Println("INFO: No PORT environment variable detected, defaulting to " + port)
 	}
-	return ":" + port
+	port = ":" + port
 
 	fmt.Println("The port is: ",port)
 	http.ListenAndServe(port, nil)
