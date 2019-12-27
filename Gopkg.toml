@@ -35,5 +35,5 @@
 
 [metadata.heroku]
   root-package = "github.com/cts3njitedu/healthyheart"
-  go-version = "go1.13.5"
+  go-version = "go1.13.5 darwin/amd64"
   ensure="true"
